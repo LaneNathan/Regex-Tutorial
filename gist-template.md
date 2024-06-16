@@ -32,6 +32,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Flags
 
+Flags are components that serve as special options or modifiers, they are placed along other components to change how they behave. `i` is used for ignoring case sensitivity specifically so any character set will match regardless of case. `g` matches any instance of the pattern and `m` matches the beginning and end of each line.  
+
 ### Grouping and Capturing
 
 This regex component uses `()` to group characters and search for anytime they may appear such as the expression `(\d{3})` will search for a group of three digits, often used in seacrhing for a phone number. 
