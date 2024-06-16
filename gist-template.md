@@ -40,6 +40,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Boundaries
 
+Boundaries are used to specifiy the position in which the pattern or character should match within the string. They can be used to locate patterns without matching each character. `\b` or a word boundary, matches where a word character is not next to another word character. `\B` or non-word boundary, is the opposite, it matches where the word character is next to another. `^` or `$` are anchors, they match the start `^` or end `$` of a string.  
+
 ### Back-references
 
 Back- references alloww you to reuse or manipulate parts of text dynamically. They often are used in regex expressions for replacements or advanced pattern matching situations. These would include the use of `\1` to match repeated word or `\1 \2` to swap the order of words.
