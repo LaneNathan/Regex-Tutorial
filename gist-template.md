@@ -30,6 +30,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Character Classes
 
+`[xyz][a-c]` are character classes, meaning they are components that can specify a range of characters by using a hyphen. This regex expression will search for the characters `xyz` or `a`,`b`,`c`.
+
 ### Flags
 
 Flags are components that serve as special options or modifiers, they are placed along other components to change how they behave. `i` is used for ignoring case sensitivity specifically so any character set will match regardless of case. `g` matches any instance of the pattern and `m` matches the beginning and end of each line.  
