@@ -34,6 +34,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Grouping and Capturing
 
+This regex component uses `()` to group characters and search for anytime they may appear such as the expression `(\d{3})` will search for a group of three digits, often used in seacrhing for a phone number. 
+
 ### Bracket Expressions
 
 Bracket Expressions are another form of character classes in which they allow you to specify the characters you want to match. This includes `[]` or square brackets, `-` or character ranges and `^` or a negotiation.
