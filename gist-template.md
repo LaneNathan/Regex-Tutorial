@@ -38,6 +38,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Greedy and Lazy Match
 
+Greedy and Lazy matches refer to the quantifiers that control how much of text is matched by the pattern. Greedy is the base behavior of quantifiers meaning they'll match as much text as possible. These include `*`,`+`,`{n,m}`. Lazy is the descriptor of quantifiers that match as little text as possible. This would be quantifiers that include `?` such as `*?`,`+?`,`{n,m}?`.
+
 ### Boundaries
 
 Boundaries are used to specifiy the position in which the pattern or character should match within the string. They can be used to locate patterns without matching each character. `\b` or a word boundary, matches where a word character is not next to another word character. `\B` or non-word boundary, is the opposite, it matches where the word character is next to another. `^` or `$` are anchors, they match the start `^` or end `$` of a string.  
