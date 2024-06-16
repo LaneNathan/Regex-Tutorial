@@ -36,6 +36,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Bracket Expressions
 
+Bracket Expressions are another form of character classes in which they allow you to specify the characters you want to match. This includes `[]` or square brackets, `-` or character ranges and `^` or a negotiation.
+
 ### Greedy and Lazy Match
 
 Greedy and Lazy matches refer to the quantifiers that control how much of text is matched by the pattern. Greedy is the base behavior of quantifiers meaning they'll match as much text as possible. These include `*`,`+`,`{n,m}`. Lazy is the descriptor of quantifiers that match as little text as possible. This would be quantifiers that include `?` such as `*?`,`+?`,`{n,m}?`.
