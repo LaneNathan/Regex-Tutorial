@@ -28,6 +28,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### OR Operator
 
+OR Operators are just another expression for `|` or pipe. This expression is used to match one pattern or another such as in the expression `/run|jump/` will search for the word run OR jump. This component can be used to check case sensitivity, email domains, and alternative spelling.
+
 ### Character Classes
 
 `[xyz][a-c]` are character classes, meaning they are components that can specify a range of characters by using a hyphen. This regex expression will search for the characters `xyz` or `a`,`b`,`c`.
