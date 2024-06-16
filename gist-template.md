@@ -46,7 +46,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Nathan Lane, I am a futurre fullstack developer that loves videos games and fashion. Originally from Buffalo,NY I moved to Charlotte, NC in 2010 and since then I've loved the city of Charlotte. For more info about me and more of my coding projects click on the link below.
 
 ![Static Badge](https://img.shields.io/badge/Github-blue?style=flat&logo=GitHub)
 [Github link](https://github.com/LaneNathan)
