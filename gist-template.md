@@ -44,6 +44,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Look-ahead and Look-behind
 
+Look-ahead and Look-behind are terms to reference advanced features in regex that match patterns only if it is or isn't followed or preceded by another without actually matches the characters in the string. These include `(?=...)` to match the preceding pattern only if it is followed by the pattern inside the parentheses and `(?!...)` to match the preceding pattern only if it is not followed by the pattern inside the parentheses. These are refered to as look-ahead assertations while, `(?<=...)` and `(?<!...)` are look-behind. `(?<=...)` matches the following pattern only if it is preceded by the pattern inside the parentheses and `(?<!...)` matches the following pattern only if it is not preceded by the pattern inside the parentheses.
+
 ## Author
 
 My name is Nathan Lane, I am a futurre fullstack developer that loves videos games and fashion. Originally from Buffalo,NY I moved to Charlotte, NC in 2010 and since then I've loved the city of Charlotte. For more info about me and more of my coding projects click on the link below.
