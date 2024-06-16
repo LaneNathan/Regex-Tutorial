@@ -24,6 +24,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+Regex Anchors are characters or character sets that look for specific placement of the following characters, `^` looks for the posistion before the first character in any string such as `^a` looks for any string that starts with "a" while `g$` matches any string that ends with "g".
+
 ### Quantifiers
 
 Quantifiers are used to specify a minimum or maximum that a pattern must be repeated for. They can be used to see how many times a character or group repeats. `*` next to the character being searched for to test if it appears zero or more times. `{n,m}` allows the user to search for a character that repeats from `n`, the minimum and `m`, the maximum.
