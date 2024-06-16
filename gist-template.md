@@ -1,10 +1,26 @@
-# Title (replace with your titddle)
+# Regex-Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex or Regular expressions are a sequence of characters that define a search pattern. They can be used to find various patterns within a larger body of text. They are used in search engines, word processors and text editors to do things like correctly matching a password and username or data validation, checking for spelling errors or text reformatting and searching for data within a string.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial I will explaining various regex components such as:
+
+*Anchors
+*Quantifiers
+*OR Operator
+*Character Classes
+*Flags
+*Grouping and Capturing
+*Bracket Expressions
+*Greedy and Lazy Match
+*Boundaries
+*Back-references
+*Look-ahead and Look-behind
+
+These components are the main features of regulars expressions used to define things such as postitiong, capitalization and even quantities within the patterns that they match with.
+
+
 
 ## Table of Contents
 
